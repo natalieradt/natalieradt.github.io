@@ -1,0 +1,39 @@
+#activity
+    {color: #006633; 
+    font-size: 32pt; 
+    font-family: cursive; 
+    text-shadow: 2px 2px grey;
+    background-color: darkseagreen;
+    width: 250px;
+    padding: 1px;
+    border: 100px blue;
+    margin: 1px;}
+#copyright 
+    {font-size: 10pt;}
+#email:link{color: cornflowerblue; 
+    text-decoration: none; 
+    font-size: 10-pt;}
+#act
+   {color: seagreen; 
+    font-size: 24pt; 
+    font-family: cursive;
+    position: relative;
+    padding: 1px;
+    margin: 1px;}
+.miz
+    {position: relative;
+    padding: 1px;
+    margin: 1px;}
+.bullet
+    {color: forestgreen;}
+.body
+    {background-color: #EAFAF1;
+  width: 500px;
+  padding: 25px;
+  margin: 25px;}
+#image
+    {position: relative;
+    padding: 10px;
+    margin: 10px;}
+.footer
+    {border-top-style: dotted;}
