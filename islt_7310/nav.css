@@ -1,0 +1,51 @@
+/*
+            Title: Nav
+            Use: Navigation CSS
+            Author: Natalie Radt
+            School/Term: Mizzou, Spring 2020
+            Developed: April 17, 2020
+            Tested:  April 19,2020; Passed on Safari and Chrome browsers.
+            */
+   .navigation a
+        {text-decoration: none;
+        color: black;
+        margin-top: 5px;
+        display: block;
+        border: 2px solid darkgreen;
+        padding: 20px 20px 20px 20px;
+        background-color: white;
+        width: 150px;
+        text-align: center;}
+
+nav ul 
+{list-style-type: none;
+margin: 0;
+padding: 0;}
+ nav>ul li 
+    {position: relative; 
+    text-align: center;
+    font-weight: bold;
+    width: 150px;}
+nav ul li 
+    {margin-bottom: 2px;
+    color: black;
+    background-color: white;}
+nav a 
+    {text-decoration: none;
+    border: 2px solid darkgreen;
+    padding: 20px 20px 20px 20px;
+    display: block;}
+nav a:link
+    {background-color: white;}
+nav a:hover, nav a:focus 
+    {background-color: greenyellow;}
+nav a:active
+    {background-color: darkgrey;}
+nav ul>li ul 
+    {position: absolute;
+    margin-top: -41%;
+    display: none;
+    left: 100%;}
+nav>ul>li:hover>ul
+    {display: block;}
+
