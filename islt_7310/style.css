@@ -4,7 +4,7 @@
             Author: Natalie Radt
             School/Term: Mizzou, Spring 2020
             Developed: April 4, 2020
-            Tested:  April 28,2020; Passed on Safari and Chrome browsers.
+            Tested:  May 3,2020; Passed on Safari and Chrome browsers.
             */
 /*positioning the main 2-column layout for all pages*/
 @font-face{
@@ -34,7 +34,7 @@ footer
 /*HomePage Contact Page Resume Page Background Page*/
 header 
     {
-    position: absolute;
+    position: relative;
     font-size: 14pt;
     padding: 2px;
     margin: 0;
@@ -46,6 +46,7 @@ header
     display: inline-block;
     margin-top: 240px;
     padding: 2px;
+    padding-left: 10px;
     width: 70%;
     float: left;
     font-family:Oxygen, serif;
@@ -68,8 +69,10 @@ header
     background-color: darkseagreen;
     padding: 1px;
     border: 1px solid green;
-    margin: 1px;
+    margin: 10px;
     width: 250px;}
+.iframe-container
+    {padding-left: 150px;}
 #copyright 
     {font-size: 10pt;}
 #email 
@@ -103,11 +106,20 @@ p:last-child
     {color: forestgreen;}
 footer p
     {font-size: 14px;}
+.logosbig
+    {position: absolute;
+    width: 0px;
+    -webkit-transition:width 0.3s liner 0s;
+    transition:width 0.3s linear 0s; 
+    z-index: 10;}
+    .logos:hover + .logosbig
+        {width: 100px;}
 .background
     {color: #0B3B17;
     font-size: 12pt;}
 #resume:link{color: cornflowerblue;
-font-size: 40pt;}
+font-size: 15pt;
+}
 #resume:hover{color: blue;}
 #resume:active{color:green;}
 #resume:focus{color:red;}
@@ -182,9 +194,9 @@ font-size: 40pt;}
 @media screen and (max-width: 640px)
     {header {width: 80%;}
     main {width: 100%;
-        font-size: 20pt;}
+        font-size: 15pt;}
     p {width: 100%;
-        font-size: 20pt;}
+        font-size: 15pt;}
     blockquote {width: 100%;}
     ul {width: 100%;}
     footer {width: 100%;}
