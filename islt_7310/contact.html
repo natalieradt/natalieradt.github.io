@@ -7,7 +7,7 @@
             Author: Natalie Radt
             School/Term: Mizzou, Spring 2020
             Developed: April 26, 2020
-            Tested:  May 3,2020; Passed on Safari and Chrome browsers. Passed validation.
+            Tested:  May 8,2020; Passed on Safari and Chrome browsers. Passed validation.
             -->
 <meta charset="utf-8">
 <title>Contact</title>
@@ -16,6 +16,7 @@
     <link rel="stylesheet"
           href="nav.css">
      <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
    #rightContent{margin-top: -10px;
@@ -23,7 +24,6 @@
         padding-left: 10px;}
         p{color: #0B3B17;
     font-size: 20pt;}
-    
         </style>
 </head>
     <body>
@@ -49,18 +49,25 @@
         <h1 id="activity">Natalie Radt</h1>
             <h1 class="miz">Contact Me</h1>
     </header>
-    
-        <aside id="rightContent">
-            <p>Email me at<a href="mailto:natalieradt@mail.missouri.edu">  natalieradt@mail.missouri.edu</a></p>
-            <img src="images/email.jpg" alt="Email" height="200" width="200">
-            <p>Find me on<a href=https://www.instagram.com/radt.photography> Instagram </a></p>
-                <p>
-            <img src="images/instagram.jpg" alt="Instagram" height="200" width="200"></p>
-            <p>Find me on <a href=https://vsco.co/nradtphotography/gallery>VSCO </a></p>
-            <p> <img src="images/vsco.jpg" alt="VSCO" height="200" width="200"></p>
-        </aside>
+    <form class="form" action="mailto:natalieradt@mail.missouri.edu?Subject=Professional%20Website%20Contact" method="post" enctype="text/plain">
+        <div class="name">
+            <label for="firstname">Name</label>
+            <input type="text" name="firstname" id="firstname" placeholder="First Name" required autofocus>
+            
+             <label for="lastname"></label>
+            <input type="text" name="lastname" id="lastname" placeholder="Last Name"  required>
+        </div>
+        <div class="email">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>    
+        <div class="message">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" style="height:100px" required></textarea>
+        </div>
+            <input type="submit" value="Submit">
+        </form>
         </main>
-        
       <footer>
               <p><a href="https://www.instagram.com/radt.photography/?hl=en">
         <img class="logos" src="https://img.icons8.com/metro/24/000000/instagram-new.png"  alt="Instagram"/><img class="logosbig" src="https://img.icons8.com/metro/24/000000/instagram-new.png"  alt="Instagram"/></a>

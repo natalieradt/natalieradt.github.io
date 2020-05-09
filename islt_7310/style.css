@@ -127,7 +127,34 @@ font-size: 15pt;
  .icons8
                 {width: 100%;
                 font-size: 5pt;}
-
+table{
+    border-collapse: collapse;}
+table th{
+    text-align: left;
+    background-color: darkgreen;
+    color: #FFF;
+    padding: 4px 30px 4px 8px;
+}
+table td{
+    border: 1px solid black;
+    padding: 4px 8px;
+}
+table tr:nth-child(odd) td{
+    background-color: #d0f0c0;
+}
+ input [type=text], input [type=email], textarea 
+    {width: 100%;
+        padding:  10px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        margin-bottom: 16px;
+        resize:  vertical;}
+.name
+{padding: 5px 5px 5px 5px;}
+.email
+{padding: 5px 5px 5px 5px;}
+.message
+{padding: 5px 5px 5px 5px;}
 
 /*you only need one media query for these assignments -- make sure you use the same selectors we have above and adjust them as needed to fit the mobile layout*/
 @media print {
@@ -212,11 +239,18 @@ font-size: 15pt;
   left: 0;
   width: 100%;
   height: 100%;
-        }}
-/*@media screen and (max-width: 320px)
-    {body {width: 320px;}
-        img {width: 200px;}}*/
-    
+        }
+.table {overflow: scroll;
+            position: relative;}
+input[type=text] 
+    {width: 30%;
+    margin-top: 0;}
+input[type=email] 
+    {width: 63%;
+    margin-top: 10px;}
+textarea
+{width: 60%;
+margin-top: 20px;}}
 
 
     
