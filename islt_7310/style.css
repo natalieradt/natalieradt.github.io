@@ -4,7 +4,7 @@
             Author: Natalie Radt
             School/Term: Mizzou, Spring 2020
             Developed: April 4, 2020
-            Tested:  May 3,2020; Passed on Safari and Chrome browsers.
+            Tested:  May 10,2020; Passed on Safari and Chrome browsers.
             */
 /*positioning the main 2-column layout for all pages*/
 @font-face{
@@ -212,14 +212,9 @@ table tr:nth-child(odd) td{
         font-size: 7pt;
     }
 }
-@media screen and (max-width: 959px)
-   {body {width: 100%;}
-    main {width: 30%}
-    p {width: 70%;}
-    header {width: 100%;}
-    }
 @media screen and (max-width: 640px)
-    {header {width: 80%;}
+    {body {width: 100%;}
+        header {width: 80%;}
     main {width: 100%;
         font-size: 15pt;}
     p {width: 100%;
